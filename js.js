@@ -31,4 +31,4 @@ $().mouseleave(function(){
     alert("going crazy");
     $('p.hello').append('.')
 });
-// !! This is what is breaking your code right here. You missed the $ at the start of line 29, You did not need the p at the beginning of the hello, you only need properties with the class hello otherwise it works without those and good work using alert to try to test.
+// !! This is what is breaking your code right here. You missed the $ at the start of line 29, good work using alert to try to test.
